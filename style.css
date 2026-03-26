@@ -1,6 +1,53 @@
 body {
 	font-family: "M PLUS 1 Code", monospace;
-	font-optical-sizing: auto;
-	font-weight: 500;
-	font-style: normal;
+	font-weight: 400;
+	font-feature-settings: "tnum";
 }
+
+body, h1, p, b, button {
+	font-family: "M PLUS 1 Code" !important;
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+}
+
+.say {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.now_playing_text {
+	width: 250px;
+	text-align: center;
+	margin: 10px;
+}
+
+.music_player {
+	display: flex;
+	flex-direction: row;
+}
+
+#mutetoggle {
+	img{
+		width: 100px;
+		height: 100px;
+	}
+	input{
+	display: none;
+	}
+
+}
+
+/*
+#now_playing {
+	justify-content: right;
+}
+*/
